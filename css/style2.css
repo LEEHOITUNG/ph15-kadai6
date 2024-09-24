@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****共通部分
+***********************************************/
+/* @import url(ress.css); */
+
+*, *:before, *:after {
+  box-sizing: border-box
+}
+
+body {
+    font-family: "Shippori Mincho", serif;
+    color: #333;
+    background-color: #fb63a2;
+  }
+
+.main_wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.textlink a {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.textlink a:hover{
+  color: rgb(255, 2, 124);
+
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+select, input{
+  border: 1px solid #333;
+  margin: 0;
+  margin-bottom: 10px;
+
+    &[type=submit] {
+      border: none;
+      border-radius: 10px ;
+      background: #fb63a2;
+      color: #fff;
+      padding: 10px;
+      width: auto;
+    }
+
+    &::placeholder {
+      color: #bdbbbb;
+    }
+
+}
+
+
+
+
+.input_area {
+  background-color: rgba(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.footer {
+  width: auto;
+  text-align: center;
+}
+
+.footer p{
+
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+
+table {
+  margin: 20px;
+}
+
+td {
+  width: 50%;
+  padding: 5px;
+}
